@@ -2,7 +2,7 @@
 
 #打个空格是标题 一共有六级标题
 
-# 这是一起标题
+# 这是一级标题
 ## 这是二级标题
 ### 这是三级标题
 #### 这是四级标题
@@ -37,5 +37,38 @@
 - ......
 
 
+# MD里的代码块
+- Python
+```Python
+def add_num(a : int, b: int) -> int:
+    return a + b
 
+if __name__ == "__main__":
+    print(add_num(1, 2))
+```
+- C++
+```C++
+include <iostream>
+
+int main(void) {
+    std::cout << "Hello World!" << std::endl;
+} 
+```
+- Go
+```Go
+package main
+
+import "fmt"
+
+func main() {
+    fmt.Println("Hello World")
+}
+```
+
+
+## 分割线
+
+--- 
+
+"---"就是分割线
 
