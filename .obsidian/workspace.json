@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "第一阶段考核任务/Github学习笔记.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "Github学习笔记"
             }
           },
           {
@@ -209,13 +209,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "c60b96978326f821",
+  "active": "2e53c78a4fade7ba",
   "lastOpenFiles": [
-    "第二阶段考核任务/Git.md",
+    "第二阶段考核任务/Git学习笔记.md",
     "README.md",
-    "Go 学习笔记/Chapter 1.md",
+    "第二阶段考核任务/Git.md",
+    "Go学习笔记/Chapter 1.md",
     "第一阶段考核任务/Github学习笔记.md",
-    "第二阶段考核任务/Git 学习笔记.md",
     "hello.md",
     "第一阶段考核任务/Markdown学习笔记.md",
     "第一阶段考核任务/Markdown练习文档.md",
@@ -223,8 +223,8 @@
     "第二阶段考核任务/Pasted image 20251107154832.png",
     "第二阶段考核任务",
     "第一阶段考核任务",
-    "Go 学习笔记/Chapter 2.md",
-    "Go 学习笔记",
+    "Go学习笔记/Chapter 2.md",
+    "Go学习笔记",
     "未命名.base",
     "未命名 1.base"
   ]
