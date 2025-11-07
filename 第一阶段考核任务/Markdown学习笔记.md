@@ -87,8 +87,8 @@ func main() {
 ## 颜色
 
 使用 HTML 格式
-<font color="red">红色文字</font>
-<font color="green">绿色文字</font>
+Github: <span color="red">红色文字</span>
+Markdown: <font color="green">绿色文字</font>
 
 
 
