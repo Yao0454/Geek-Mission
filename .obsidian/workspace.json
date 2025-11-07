@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Markdown练习文档.md",
+                "file": "第一阶段考核任务/Github学习笔记.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Markdown练习文档"
+              "title": "Github学习笔记"
             }
           },
           {
@@ -225,10 +225,12 @@
   },
   "active": "c2ba2fb17720d598",
   "lastOpenFiles": [
-    "Markdown学习笔记.md",
-    "Markdown练习文档.md",
     "README.md",
-    "Github学习笔记.md",
+    "第一阶段考核任务/Github学习笔记.md",
+    "第二阶段考核任务",
+    "第一阶段考核任务/Markdown练习文档.md",
+    "第一阶段考核任务",
+    "第一阶段考核任务/Markdown学习笔记.md",
     "Go 学习笔记/Chapter 2.md",
     "Go 学习笔记/Chapter 1.md",
     "Go 学习笔记",
