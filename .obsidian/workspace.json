@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Github学习笔记.md",
+                "file": "Go 学习笔记/Chapter 2.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Github学习笔记"
+              "title": "Chapter 2"
             }
           },
           {
@@ -225,10 +225,10 @@
   },
   "active": "c2ba2fb17720d598",
   "lastOpenFiles": [
+    "Github学习笔记.md",
     "Go 学习笔记/Chapter 2.md",
     "Go 学习笔记/Chapter 1.md",
     "Go 学习笔记",
-    "Github学习笔记.md",
     "Markdown学习笔记.md",
     "Markdown练习文档.md",
     "README.md",
