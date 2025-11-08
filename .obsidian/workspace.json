@@ -41,6 +41,20 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "第二阶段考核任务/Git学习笔记.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Git学习笔记"
+            }
+          },
+          {
+            "id": "58922db648a6a6aa",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "第二阶段考核任务/Git提交练习文档.md",
                 "mode": "source",
                 "source": false
@@ -64,7 +78,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -223,20 +237,21 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "2e53c78a4fade7ba",
+  "active": "58922db648a6a6aa",
   "lastOpenFiles": [
-    "第二阶段考核任务/Pasted image 20251108081528.png",
-    "README.md",
-    "第二阶段考核任务/Git提交练习文档.md",
     "第二阶段考核任务/Git学习笔记.md",
-    "第二阶段考核任务/Pasted image 20251107161236.png",
+    "第二阶段考核任务/Git提交练习文档.md",
+    "第二阶段考核任务/Git进阶笔记.md",
+    "第一阶段考核任务/Github学习笔记.md",
+    "第二阶段考核任务/Pastedimage20251108081528.png",
+    "第二阶段考核任务/Pastedimage20251107161236.png",
+    "第二阶段考核任务/Pastedimage20251107154832.png",
+    "README.md",
     "第一阶段考核任务/Markdown学习笔记.md",
     "第一阶段考核任务/Markdown练习文档.md",
-    "第一阶段考核任务/Github学习笔记.md",
     "第二阶段考核任务/Git.md",
     "Go学习笔记/Chapter 1.md",
     "hello.md",
-    "第二阶段考核任务/Pasted image 20251107154832.png",
     "第二阶段考核任务",
     "第一阶段考核任务",
     "Go学习笔记/Chapter 2.md",

@@ -15,7 +15,7 @@ git config --global user.email "yaoyifeng20070524@outlook.com"
 ``` Shell
 vim ./hello.md
 ```
-![[Pasted image 20251107154832.png]]
+![img1](./Pastedimage20251107154832.png)
 输入
 ``` Shell
 # Hello + 姚奕枫
@@ -32,5 +32,5 @@ git push -u origin main
 //推送修改到main分支
 
 ```
-![[Pasted image 20251107161236.png]]
+![img2](./Pastedimage20251107161236.png)
 看到这样就说明成功了
