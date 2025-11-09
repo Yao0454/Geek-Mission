@@ -1,4 +1,4 @@
-# Git的学习
+/# Git的学习
 
 在 Linux 环境下， 安装 Git 非常简单，只需要
 ``` Shell
