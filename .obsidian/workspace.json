@@ -69,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "算法/筛.md",
+                "file": "算法/高精度.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "筛"
+              "title": "高精度"
             }
           },
           {
@@ -149,7 +149,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 210.5
   },
   "right": {
     "id": "09584a75a3935dd8",
@@ -237,7 +237,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -253,8 +254,8 @@
   },
   "active": "f5f58cb125e2d5ec",
   "lastOpenFiles": [
-    "第二阶段考核任务/Git学习笔记.md",
     "算法/筛.md",
+    "第二阶段考核任务/Git学习笔记.md",
     "算法",
     "第二阶段考核任务/Git提交练习文档.md",
     "第二阶段考核任务/Git进阶笔记.md",
