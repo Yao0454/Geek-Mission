@@ -1,0 +1,12 @@
+h1 {
+    color : darkblue; /* 标题颜色设为深蓝色 */
+}
+
+p {
+    color :dimgray; /* 段落文字颜色设为暗灰色 */
+    font-size: 18px; /* 段落字体大小设为18像素 */
+}
+
+li {
+    color: purple; /* 列表项颜色设为紫色 */
+}

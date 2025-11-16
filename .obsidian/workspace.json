@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "37865c9160c04f9f",
+        "id": "2ade978fc959eca2",
         "type": "tabs",
         "children": [
           {
-            "id": "58922db648a6a6aa",
+            "id": "1e444bc3a6b93ccd",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -181,13 +181,16 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "58922db648a6a6aa",
+  "active": "1e444bc3a6b93ccd",
   "lastOpenFiles": [
+    "第三阶段考核任务/img6.png",
     "第三阶段考核任务/CSS学习笔记.md",
+    "第三阶段考核任务/HTML学习笔记.md",
+    "Pasted.md",
+    "第三阶段考核任务/fengqwq.cn/style.css",
+    "第三阶段考核任务/fengqwq.cn/index.html",
     "第三阶段考核任务/配置Ubuntu服务器.md",
     "第三阶段考核任务/fengqwq.cn/index2.html",
-    "第三阶段考核任务/fengqwq.cn/index.html",
-    "第三阶段考核任务/HTML学习笔记.md",
     "第三阶段考核任务/fengqwq.cn",
     "README.md",
     "第三阶段考核任务/img1.png",
@@ -211,7 +214,6 @@
     "第一阶段考核任务/Github学习笔记.md",
     "第二阶段考核任务/Pastedimage20251108081528.png",
     "第二阶段考核任务/Pastedimage20251107161236.png",
-    "第二阶段考核任务/Pastedimage20251107154832.png",
     "第一阶段考核任务/Markdown学习笔记.md",
     "第一阶段考核任务/Markdown练习文档.md",
     "第二阶段考核任务/Git.md",
@@ -219,7 +221,6 @@
     "第二阶段考核任务",
     "第一阶段考核任务",
     "Go学习笔记/Chapter 2.md",
-    "Go学习笔记",
-    "未命名 1.base"
+    "Go学习笔记"
   ]
 }
