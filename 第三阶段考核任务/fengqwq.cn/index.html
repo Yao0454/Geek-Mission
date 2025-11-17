@@ -1,18 +1,46 @@
 <!DOCTYPE html>
-<html>
+<html lang="zh-CN">
     <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>枫枫子的网站</title>
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <h1>欢迎来到枫枫子的网站</h1>
+        <h1 id = "title">欢迎来到枫枫子的网站</h1>
 
-        <p>这是一个段落，等会用 CSS 文件改变其外观</p>
+        <nav class = "navbar">
+            <div class = "nav">
+                <ul>
+                    <li><a href="#home" class="nav-link">首页</a></li>
+                    <li><a href="#about" class="nav-link">关于我</a></li>
+                    <li><a href="https://github.com/Yao0454" target="_blank">我的Github页面</a></li>
+                </ul>
+            </div>
+        </nav>
 
-        <ul>
-            <li>第一项</li>
-            <li>第二项</li>
-            <li>第三项</li>
-        </ul>
+        <section id="home" class = "home-section">
+            <h2 class = "homeh2">首页内容</h2>
+            <p class = "homep">这里是首页的内容。</p>
+            <p class = "homep">欢迎浏览我的网站！</p>
+            <button id = "greeting button" class = "greeting-button">点我!!!</button>
+        </section>
+
+        <section id="about" class = "about-section">
+            <h2 class = "abouth2">关于我</h2>
+            <p class = "aboutp">大家好，我是枫枫子，一个前端初学者。</p>
+            <p>目前正在学习：</p>
+            <ul class = "learing-list">
+                <li class="learning-item">HTML</li>
+                <li class="learning-item">CSS</li>
+                <li class="learning-item">JavaScript</li>
+            </ul>
+            <p class = "aboutp">我饱含 Geek 精神，喜欢探索新技术，并将我的经验与大家分享。</p>
+
     </body>
+    <script>
+    document.getElementById("greeting button").onclick = function() {
+        alert("欢迎来到枫枫子的网站！");
+    };
+    </script>
 </html>
