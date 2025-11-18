@@ -18,4 +18,7 @@
 ## 第三阶段考核任务
 
 - [HTML学习笔记](./第三阶段考核任务/HTML学习笔记.md)
-- [配置Ubuntu服务器](./第三阶段考核任务/配置Ubuntu服务器)
+- [配置Ubuntu服务器](./第三阶段考核任务/配置Ubuntu服务器.md)
+- [CSS学习笔记](./第三阶段考核任务/CSS学习笔记.md)
+- [Javascript学习笔记](./第三阶段考核任务/Javascript学习笔记.md)
+- [GithubPage](https://yao0454.github.io)
