@@ -253,7 +253,7 @@ ul {
 .contact-box {
     max-width: 800px;
     margin: 0 auto;
-    border: 3px solid #2e7d32; /* 绿色边框 */
+    border: 3px solid #2e7d32;
     border-radius: 20px;
     padding: 40px;
     background: #fff;
