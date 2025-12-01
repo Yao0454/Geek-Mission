@@ -9,7 +9,11 @@
 <body>
     <nav class="topbar">
         <div class="nav-content">
-            <a href="#intro">Introduction</a>
+            <div class="intro">
+                <a href="#intro">Introduction</a>
+                <img src="./images/qrcode_1699620268564.jpg" alt="QR Code" class="qr-code">
+            </div>
+            
             <a href="#about">About Us</a>
             <a href="https://campus.new-thread.com/" target="_blank">NewThread</a>
             <a href="#contact">Contact Us</a>
@@ -20,6 +24,7 @@
     <header class="header">
         <div class="header-image">
             <img src="./images/background_Homepage.png" alt="Background Image">
+            <img src="./images/decoration_Geek.png" alt="Geek Decoration" class="center-logo">
         </div>
     </header>
 
@@ -157,5 +162,19 @@
 
 
 </body>
+
+<script>
+    const buttons = document.querySelectorAll('.action-buttons .btn');
+    const emailBtn = buttons[1];
+
+    if (emailBtn) {
+            emailBtn.addEventListener('click', function() {
+                const email = "newthread_geek@outlook.com";
+                navigator.clipboard.writeText(email).then(() => {
+                    alert("已复制到剪贴板");
+                })
+                });
+            }
+</script>
 
 </html>

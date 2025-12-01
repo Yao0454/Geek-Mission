@@ -60,15 +60,76 @@ ul {
     color: #333;
 }
 
+.intro {
+    position: relative;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin: 0 20px;
+}
+
+.intro a {
+    margin: 0; 
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.qr-code {
+    display: none;
+    position: absolute;
+    top: 50px; 
+    left: 50%;
+    transform: translateX(-50%); 
+    width: 150px;
+    height: auto;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2); 
+    z-index: 1100;
+}
+
+.intro:hover .qr-code {
+    display: block;
+    animation: fadeIn 0.3s;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; margin-top: 10px; }
+    to { opacity: 1; margin-top: 0; }
+}
+
 .header {
     text-align: center;
     padding: 40px 0 20px;
+}
+
+.header-image {
+    position: relative;
+    display: inline-block;
+    width: 100%;
 }
 
 .header-image img {
     max-width: 100%;
     height: auto;
     margin-top: 10px;
+}
+
+.center-logo {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    height: auto;
+    transition: transform 1.5s ease;
+    cursor: pointer;
+}
+
+.center-logo:hover {
+    transform: translate(-50%, -50%) scale(2);
 }
 
 .intro {
