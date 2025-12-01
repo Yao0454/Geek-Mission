@@ -49,18 +49,27 @@ ul {
     z-index: 1000;
 }
 
+.nav-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 1000px;
+}
+
 .nav-content a {
     color: #fff;
     font-weight: bold;
     margin: 0 20px;
     font-size: 1.2rem;
+
 }
 
 .nav-content a:hover {
     color: #333;
 }
 
-.intro {
+.nav-content .intro {
     position: relative;
     height: 100%;
     display: flex;
@@ -68,7 +77,7 @@ ul {
     margin: 0 20px;
 }
 
-.intro a {
+.nav-content .intro a {
     margin: 0; 
     color: #fff;
     font-weight: bold;
@@ -78,7 +87,7 @@ ul {
 .qr-code {
     display: none;
     position: absolute;
-    top: 50px; 
+    top: 80px; 
     left: 50%;
     transform: translateX(-50%); 
     width: 150px;
@@ -90,7 +99,7 @@ ul {
     z-index: 1100;
 }
 
-.intro:hover .qr-code {
+.nav-content .intro:hover .qr-code {
     display: block;
     animation: fadeIn 0.3s;
 }
