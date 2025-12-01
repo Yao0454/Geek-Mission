@@ -1,0 +1,290 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Microsoft YaHei', sans-serif;
+    background-color: #fff;
+    color: #333;
+    line-height: 1.6;
+    padding-top: 30px;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 2.5rem;
+    margin: 40px 0;
+    color: #333;
+    font-weight: bold;
+}
+
+.topbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    background-color: #e2ce16;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+.nav-content a {
+    color: #fff;
+    font-weight: bold;
+    margin: 0 20px;
+    font-size: 1.2rem;
+}
+
+.nav-content a:hover {
+    color: #333;
+}
+
+.header {
+    text-align: center;
+    padding: 40px 0 20px;
+}
+
+.header-image img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+}
+
+.intro {
+    padding: 40px 0;
+}
+
+.role-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 80px;
+    gap: 50px;
+    border: 2px solid #0f0f0f;
+    border-radius: 15px;
+}
+
+.role-card:nth-of-type(even) {
+    flex-direction: row-reverse;
+}
+
+.card-text {
+    flex: 1;
+    background: #fff;
+    padding: 30px;
+    position: relative;
+    border-radius: 15px;
+}
+
+.card-img {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.card-img img {
+    max-width: 100%;
+    max-height: 300px;
+    object-fit: contain;
+}
+
+.card-text h3 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+.quote {
+
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.role-card:nth-of-type(1) .card-text .quote { color: #2196f3; }
+.role-card:nth-of-type(2) .card-text .quote { color: #e91eb6; }
+.role-card:nth-of-type(3) .card-text .quote { color: #37dab6; }
+.role-card:nth-of-type(4) .card-text .quote { color: #ec90f8; }
+
+.description {
+    font-size: 0.95rem;
+    text-align: justify;
+    margin-bottom: 10px;
+}
+
+.section-about {
+    padding: 40px 0;
+    border: 3px solid #666; 
+    border-radius: 20px;
+    background-color: #f5f4e6;
+    background-image: 
+        url('./images/decoration_Decoration.png'),
+        url('./images/decoration_Decoration.png'),
+        url('./images/decoration_Decoration.png'),
+        url('./images/decoration_Decoration.png');
+    background-position: 
+        left top, 
+        right top, 
+        right bottom, 
+        left bottom;
+    background-size: 100px auto, 100px auto, 100px auto, 100px auto;
+    background-repeat: no-repeat;
+}
+
+
+.features-grid {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 40px;
+    position: relative;
+}
+
+.feature-item {
+    flex: 1;
+    min-width: 250px;
+    text-align: center;
+    padding: 20px;
+    border: 5px solid #7a25db;
+    border-radius: 10%;
+}
+
+.icon-box {
+    width: 60px;
+    height: 300px;
+    margin: 0 auto 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon-box img {
+    max-width: 130%;
+    max-height: 130%;
+    object-fit: contain;
+}
+
+.section-contact {
+    padding: 60px 0;
+}
+
+.contact-box {
+    max-width: 800px;
+    margin: 0 auto;
+    border: 3px solid #2e7d32; /* 绿色边框 */
+    border-radius: 20px;
+    padding: 40px;
+    background: #fff;
+    background-image: url("./images/decoration_Tree.png");
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 100px auto;
+}
+
+.requirements li {
+    margin-bottom: 10px;
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.ps {
+    font-size: 0.85rem;
+    color: #666;
+    margin-top: 20px;
+    border-top: 1px dashed #ccc;
+    padding-top: 10px;
+}
+
+.action-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.btn {
+    padding: 10px 30px;
+    border: none;
+    border-radius: 25px;
+    font-weight: bold;
+    cursor: pointer;
+    color: #fff;
+    background-color: #4caf50;
+    transition: transform 0.2s;
+}
+
+.btn:hover {
+    transform: scale(1.05);
+}
+
+.section-faq {
+    background-color: #90caf9;
+    padding: 60px 0 100px;
+    margin-top: 50px;
+    border-top-left-radius: 50% 20px;
+    border-top-right-radius: 50% 20px;
+}
+
+.faq-list {
+    max-width: 800px;
+}
+
+details {
+    background: rgba(255, 255, 255, 0.3);
+    margin-bottom: 15px;
+    border-radius: 8px;
+    border: 1px solid rgba(255,255,255,0.5);
+    overflow: hidden;
+}
+
+summary {
+    padding: 15px;
+    cursor: pointer;
+    font-weight: bold;
+    color: #fafaeb;
+    position: relative;
+    list-style: none;
+}
+
+summary::-webkit-details-marker {
+    display: none;
+}
+
+summary::after {
+    content: '+';
+    position: absolute;
+    right: 20px;
+    font-size: 1.2rem;
+}
+
+details[open] summary::after {
+    content: '-';
+}
+
+details p {
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.95);
+    color: #333;
+    margin: 0;
+}

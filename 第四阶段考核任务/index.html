@@ -4,24 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Geek组招新</title>
-    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
     <nav class="topbar">
         <div class="nav-content">
             <a href="#intro">Introduction</a>
             <a href="#about">About Us</a>
-            <a href="#">NewThread</a>
+            <a href="https://campus.new-thread.com/" target="_blank">NewThread</a>
             <a href="#contact">Contact Us</a>
-            <a href="faq">Q&A</a>
+            <a href="#faq">Q&A</a>
         </div>
     </nav>
 
     <header class="header">
-        <div class="logo">
-            <h1>GEEK</h1>
-            <p>Keep Curiosity. The Power Of Change.</p>
-        </div>
         <div class="header-image">
             <img src="./images/background_Homepage.png" alt="Background Image">
         </div>
@@ -31,6 +27,7 @@
         <h2 class="section-title">Introduction</h2>
         
         <div class="container">
+            <!-- 卡片 1: 程序猿 -->
             <div class="role-card">
                 <div class="card-text">
                     <h3>开发程序猿</h3>
@@ -43,20 +40,21 @@
                 </div>
             </div>
 
-            <div class="role-card2">
+            <!-- 卡片 2: 产品经理 -->
+            <div class="role-card">
                 <div class="card-text">
                     <h3>产品经理</h3>
                     <p class="quote">"好的软件的特征是,明明没用过，但总觉得用过似的。"</p>
                     <p class="description">PM是针对某一项或是某一类的产品进行规划和管理的人员。 PM需要拥有缜密的产品逻辑思维，研究用户心理，负责产品的整个生命周期。 PM参与产品的UI和交互设计，为设计和开发确定产品原型，能够将产品变得有个性,操作变得舒适简单、自由。 PM需要一定的文档能力和沟通能力，能够在团队合作的过程中跟各个角色进行有效沟通。</p>
-    
                 </div>
                 <div class="card-img">
                     <img src="./images/Geek_PM.png" alt="PM Image">
                 </div>
             </div>
 
-            <div class="role-card3">
-                </div class="card-text">
+            <!-- 卡片 3: 游戏开发 -->
+            <div class="role-card">
+                <div class="card-text">
                     <h3>游戏开发</h3>
                     <p class="quote">"TECH OTAKUS SAVE THE WORLD"</p>
                     <p class="description">对游戏开发的热爱和追求，使我们相聚于此。 涉及计算机图形学的学习，我们使用物理模拟引擎Unity开发我们所追求的世界，一个故事，一个角色，在我们的世界里改变现实，创造新的可能，我们参与，我们改变，我们创造...</p>
@@ -66,15 +64,16 @@
                 </div>
             </div>
 
-            <div class="role-card4">
+            <!-- 卡片 4: 安全  -->
+            <div class="role-card">
                 <div class="card-text">
                     <h3>安全</h3>
                     <p class="quote">"路漫漫其修远兮，非大毅力者不能"</p>
                     <p class="description">我们主要学习Web安全和二进制安全。在Web安全中我们将学习和实践Web漏洞挖掘技术，也将探索和讨论Web安全实践的方法。在二进制安全中我们专注于分析和防御与计算机程序、系统相关的威胁，同时实践漏洞分析和修补。耐心和钻研缺一不可。</p>
-
                 </div>
                 <div class="card-img">
                     <img src="./images/Geek_security.png" alt="Security Image">
+                </div>
             </div>
         </div>
     </section>
@@ -83,15 +82,21 @@
         <h2 class="section-title">About Us</h2>
         <div class="container features-grid">
             <div class="feature-item">
-                <div class="icon-box">Speech</div>
+                <div class="icon-box">
+                    <img src="./images/about_Speech.png" alt="Speech Icon">
+                </div>
                 <p>每周我们会举行一次技术例会，用来汇报我们的学习内容，供成员之间交流学习。</p>
             </div>
             <div class="feature-item">
-                <div class="icon-box">Diversity</div>
+                <div class="icon-box">
+                    <img src="./images/about_Diversity.png" alt="Diversity Icon">
+                </div>
                 <p>多元化是我们的特色。在这里，你可以拥有多种方向选择，前后端、安全、AI、产品/设计、游戏等。</p>
             </div>
             <div class="feature-item">
-                <div class="icon-box">30+ H</div>
+                <div class="icon-box">
+                    <img src="./images/about_Time.png" alt="30 Hours Icon">
+                </div>
                 <p>耐心、毅力是我们必备的品质，每周我们会至少花30小时在实验室中。以保证技术的精进。</p>
             </div>
         </div>
@@ -118,13 +123,34 @@
         <div class="wave-top"></div> 
         <h2 class="section-title">More Questions</h2>
         <div class="container faq-list">
-            <p>1. 什么是Geek(极客)? Geek精神又是什么?</p>
-            <p>2. 招新是安排在什么时间?</p>
-            <p>3. 我们有考核吗? 考核流程是怎样的呀?</p>
-            <p>4.考核是怎样的形式？</p>
-            <p>5.进入Geek组之后都有什么福利呢？</p>
-            <p>6.进入团队会影响我的日常学习吗？</p>
-            <p>7.老师以及学长学姐们的期望是什么?</p>
+            <details>
+                <summary>1.什么是Geek(极客)？Geek精神又是什么？</summary>
+                <p>拥有好奇之心，改变之力，爱钻研，能折腾。</p>
+            </details>
+            <details>
+                <summary>2.招新是安排在什么时间？</summary>
+                <p>按照惯例，正式招新时间是在9月下旬~10月上旬，不过今年会有一些改动，笔试地 点一般在9号教学楼。 如果想要了解我们，可以加入我们的QQ群，招新具体的安排/变动会在招新群通知。</p>
+            </details>
+            <details>
+                <summary>3.我们有考核吗？考核流程是怎样的呀？</summary>
+                <p>嗯...我们一共有一轮笔试和两轮面试。权衡技术、经验和学习能力，第一轮是一些视野性的题目，淘汰率并不高。第二轮单独面试， 根据你的笔试提出技术相关的问题、兴趣爱好、个人看法。最后一轮群面，首先问及时间分 配上的问题，其次也会向你提出各种奇怪的问题。这一轮中许多题目其实并不难，也无标准答案，重在考察同学们在压力下的逻辑思维。全部通过成为预备成员啦。</p>
+            </details>
+            <details>
+                <summary>4.考核是怎样的形式？</summary>
+                <p>在考核期间每人会拥有一位'长者'带你入门，学习技术与知识，交流经验与想法。完成每周的新人任务后再进行一次考核筛选 后就可以成为Geek组正式成员啦！在考核期必须满足每周30个小时在实验室哦,所以考核期也不可以懈怠哦！</p>
+            </details>
+            <details>
+                <summary>5.进入Geek组之后都有什么福利呢？</summary>
+                <p>一对一的新人指引，每一个成员都有会一个mentor, 带你初入门槛，与你一同成长，组内管理较宽松,在尊重其他人的前提下可以尽情发挥自己的个性。 打破平淡，与同样疯狂的人把疯狂的idea实现，磨砺耐性、培养思维、成就梦想。Lab设备/网络资源充足，闲暇之余也有组织活动。更有许多的故事等你来听~</p>
+            </details>
+            <details>
+                <summary>6.进入团队会影响我的日常学习吗？</summary>
+                <p>你要知道大学是一个可以自由安排自己学习生活的地方。如果你想在上课之余充实自己、激励自己，最好的方法就是和比自己更优秀的人在一起。团队不缺优秀的 人，而我们也期待同样优秀的你，让我们一起前进！小组里也有不少保研, 考研的前辈们, 大部分都能找到一个平衡点, 而且团队的经历对你日后读研, 工作都大有裨益。</p>
+            </details>
+            <details>
+                <summary>7.老师以及学长学姐们的期望是什么?</summary>
+                <p>我们希望你有很强的自学能力，同时关注新事物、新技术，喜欢挑战，逻辑性强，善于和各种文化的人合作.“每个人都可以做自己想做的事情，每个人的方向不一样。 如果你想做产品或有不错的 idea，那么就可以找志同道合的人一起合作。”</p>
+            </details>
         </div>
     </section>
 
