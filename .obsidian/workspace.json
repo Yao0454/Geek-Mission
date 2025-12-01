@@ -259,27 +259,16 @@
               "icon": "git-pull-request",
               "title": "Source Control"
             }
-          },
-          {
-            "id": "93539036d5e71eaa",
-            "type": "leaf",
-            "state": {
-              "type": "mermaid-toolbar-view",
-              "state": {},
-              "icon": "trident-custom",
-              "title": "Mermaid Toolbar"
-            }
           }
         ],
         "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 321.5
   },
   "left-ribbon": {
     "hiddenItems": {
-      "mermaid-tools:Open Mermaid Toolbar": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
@@ -287,15 +276,33 @@
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
       "bases:创建新数据库": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "copilot:Open Copilot Chat": false
     }
   },
   "active": "0871cfc1e40864f7",
   "lastOpenFiles": [
+    "第三阶段考核任务/CSS学习笔记.md",
+    "copilot/copilot-conversations/你好啊@20251124_221609.md",
+    "copilot/copilot-conversations",
+    "copilot/copilot-custom-prompts/Rewrite as tweet thread.md",
+    "copilot/copilot-custom-prompts/Rewrite as tweet.md",
+    "copilot/copilot-custom-prompts/Remove URLs.md",
+    "copilot/copilot-custom-prompts/Generate glossary.md",
+    "copilot/copilot-custom-prompts/Generate table of contents.md",
+    "copilot/copilot-custom-prompts/Make longer.md",
+    "copilot/copilot-custom-prompts/Make shorter.md",
+    "copilot/copilot-custom-prompts/Emojify.md",
+    "copilot/copilot-custom-prompts/Explain like I am 5.md",
+    "copilot/copilot-custom-prompts/Simplify.md",
+    "copilot/copilot-custom-prompts/Summarize.md",
+    "copilot/copilot-custom-prompts/Translate to Chinese.md",
+    "copilot/copilot-custom-prompts/Fix grammar and spelling.md",
+    "copilot/copilot-custom-prompts",
+    "copilot",
     "第三阶段考核任务/img6.png",
     "第三阶段考核任务/fengqwq.cn/style.css",
     "第三阶段考核任务/HTML学习笔记.md",
-    "第三阶段考核任务/CSS学习笔记.md",
     "第三阶段考核任务/fengqwq.cn/index2.html",
     "第三阶段考核任务/fengqwq.cn/index.html",
     "第三阶段考核任务/fengqwq.cn",
@@ -319,13 +326,6 @@
     "第二阶段考核任务/Pastedimage20251107161236.png",
     "第二阶段考核任务/Pastedimage20251107154832.png",
     "第一阶段考核任务/Markdown学习笔记.md",
-    "第一阶段考核任务/Markdown练习文档.md",
-    "第二阶段考核任务/Git.md",
-    "Go学习笔记/Chapter 1.md",
-    "第二阶段考核任务",
-    "第一阶段考核任务",
-    "Go学习笔记/Chapter 2.md",
-    "Go学习笔记",
-    "未命名.base"
+    "第二阶段考核任务"
   ]
 }

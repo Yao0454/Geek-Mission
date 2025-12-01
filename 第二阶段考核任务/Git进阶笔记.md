@@ -48,6 +48,14 @@ git fetch //pull远程仓库但不合并
 
 //怎么挂代理服务器
 
-git config --global proxy.http "代理服务器地址"
-git config --global proxy.https "代理服务器地址"
+git config --global http.proxy "http://proxy.example.com:8080"
+git config --global https.proxy "http://proxy.example.com:8080"
+
+// 如需认证
+git config --global http.proxy "http://username:password@proxy.example.com:8080"
+git config --global https.proxy "http://username:password@proxy.example.com:8080"
+
+// 取消代理
+git config --global --unset http.proxy
+git config --global --unset https.proxy
 ```

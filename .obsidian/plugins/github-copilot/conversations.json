@@ -1,0 +1,40 @@
+{
+  "conversations": [
+    {
+      "id": "1763994190556",
+      "title": "New Conversation",
+      "messages": [],
+      "createdAt": 1763994190556,
+      "updatedAt": 1763994190556,
+      "model": {
+        "label": "Gemini 2.5 Pro",
+        "value": "gemini-2.5-pro-preview-05-06"
+      }
+    },
+    {
+      "id": "1763994133221",
+      "title": "你好啊",
+      "messages": [
+        {
+          "id": "1763994133220",
+          "content": "你好啊",
+          "role": "user",
+          "timestamp": 1763994133220
+        },
+        {
+          "id": "1763994184441",
+          "content": "k",
+          "role": "user",
+          "timestamp": 1763994184441
+        }
+      ],
+      "createdAt": 1763994133221,
+      "updatedAt": 1763994184441,
+      "model": {
+        "label": "Gemini 2.5 Pro",
+        "value": "gemini-2.5-pro-preview-05-06"
+      }
+    }
+  ],
+  "activeConversationId": "1763994190556"
+}
