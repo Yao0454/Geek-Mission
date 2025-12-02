@@ -177,6 +177,12 @@ ul {
     max-width: 100%;
     max-height: 300px;
     object-fit: contain;
+    transition: transform 1.5s ease;
+    cursor: pointer;
+}
+
+.card-img img:hover {
+    transform: scale(1.2);
 }
 
 .card-text h3 {
